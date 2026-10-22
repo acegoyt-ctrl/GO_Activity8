@@ -1,0 +1,151 @@
+/* KAGE WALLS - SHADOW GALLERY */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #090711;
+}
+
+body {
+  background-color: #090711;
+  color: #eae4f8;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 22px 7%;
+  text-align: center;
+}
+
+/* NAVIGATION */
+
+nav {
+  background-color: #130d23;
+  border: 1px solid #35244f;
+  border-radius: 14px;
+  padding: 12px;
+  margin-bottom: 45px;
+}
+
+nav h2 {
+  color: #ffffff;
+  font-size: 24px;
+  margin: 8px;
+}
+
+nav p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+a {
+  color: #b99cff;
+}
+
+nav a {
+  color: #e7dcff;
+}
+
+/* HEADINGS */
+
+h1 {
+  color: #ffffff;
+  font-size: 58px;
+  font-weight: 900;
+  margin: 20px 0;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 32px;
+  margin-top: 65px;
+}
+
+h3 {
+  color: #e9dcff;
+  font-size: 21px;
+}
+
+/* PARAGRAPHS */
+
+p {
+  color: #b9afcb;
+  font-size: 15px;
+}
+
+.eyebrow {
+  color: #a67bff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.intro {
+  font-size: 17px;
+  margin: 24px auto 34px;
+  width: 80%;
+}
+
+/* EXPLORE LINK */
+
+.action {
+  background-color: #6c35c9;
+  border: 1px solid #b89cff;
+  border-radius: 30px;
+  padding: 17px;
+  margin: 25px auto 40px;
+  width: 275px;
+}
+
+.action a {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* DIVIDER */
+
+hr {
+  border: 0;
+  border-top: 1px solid #3b295a;
+  margin: 50px 0;
+}
+
+/* FEATURED WALLPAPER */
+
+.feature {
+    width: 85%;
+    height: auto;
+    border: 2px solid #483064;
+    border-radius: 18px;
+}
+
+/* ANIME COLLECTIONS */
+
+.collection {
+    color: #d6c2ff;
+    background-color: #160e28;
+    border-left: 4px solid #483064;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 75px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.wallpaper {
+    width: 29%;
+    height: auto;
+    border: 2px solid #483064;
+    border-radius: 12px;
+    margin: 1%;
+    background-color: #1b142b;
+}
+
+/* FOOTER */
+
+.footer {
+  color: #837594;
+  font-size: 11px;
+  margin: 30px;
+}
+
