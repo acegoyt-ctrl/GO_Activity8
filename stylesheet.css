@@ -1,5 +1,4 @@
 /* KAGE WALLS - SHADOW GALLERY */
-
 * {
   box-sizing: border-box;
 }
@@ -17,33 +16,32 @@ body {
   text-align: center;
 }
 
-/* NAVIGATION */
-
-nav {
-  background-color: #130d23;
-  border: 1px solid #35244f;
-  border-radius: 14px;
-  padding: 12px;
-  margin-bottom: 45px;
+/* Navigation */
+.navbar {
+    background-color: #130d23;
+    border: 1px solid #35244f;
+    border-bottom: 0;
+    border-radius: 14px 14px 0 0;
+    padding: 20px 12px 8px;
+    margin: 0;
+    color: #ffffff;
+    font-size: 24px;
 }
 
-nav h2 {
-  color: #ffffff;
-  font-size: 24px;
-  margin: 8px;
+.navlinks {
+    background-color: #130d23;
+    border: 1px solid #35244f;
+    border-top: 0;
+    border-radius: 0 0 14px 14px;
+    padding: 8px 12px 20px;
+    margin: 0 0 45px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
-nav p {
-  font-size: 12px;
-  font-weight: bold;
-}
-
-a {
-  color: #b99cff;
-}
-
-nav a {
-  color: #e7dcff;
+.navbar a,
+.navlinks a {
+    color: #e7dcff;
 }
 
 /* HEADINGS */
